@@ -86,8 +86,11 @@ client.on('message', message => {
         ];
         
         var x3 = Math.floor(Math.random()*x.length)
-        message.channel.send(` اول شخص يكتب :  __**${x[x3]}**__
-لديك 15 ثانية للاجابة`).then(msg1=> {
+        message.channel.send(````fix
+اول شخص يكتب
+${x[x3]}
+لديك 15 ثانية  للاجابة
+````).then(msg1=> {
             var r = message.channel.awaitMessages(msg => msg.content == x2[x3], {
                 maxMatches : 1,
                 time : 15000,
@@ -111,7 +114,7 @@ client.on('message', message => {
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Cyhper Script By : DREAM`);
+      console.log(`1Cyhper Script By : DREAM`);
         console.log(`----------------`);
       console.log(`ON ${client.guilds.size} Servers '     Script By : DREAM ' `);
     console.log(`----------------`);
