@@ -1,2 +1,2 @@
-# - Games Bot
-ملف شبيه جدا بالعاب بوت
+# - Dream Bot
+By Dream
